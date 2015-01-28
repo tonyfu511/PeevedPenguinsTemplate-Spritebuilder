@@ -53,6 +53,10 @@
     }
 }
 
+- (void)sealRemoved:(CCNode *)seal {
+    [seal removeFromParent];
+}
+
 // called on every touch in this scene
 - (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
     CGPoint touchLocation = [touch locationInNode:_contentNode];
