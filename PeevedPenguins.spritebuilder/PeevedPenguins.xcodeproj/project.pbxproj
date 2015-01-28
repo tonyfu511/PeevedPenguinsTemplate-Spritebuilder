@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
 		92728ADC1A786E8700DDE725 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 92728ADB1A786E8700DDE725 /* Gameplay.m */; };
+		92728AEB1A78D2CA00DDE725 /* WaitingPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 92728AEA1A78D2CA00DDE725 /* WaitingPenguin.m */; };
 		9297AA1F1A74A47A00D79066 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9297AA1E1A74A47A00D79066 /* Seal.m */; };
 		9297AA2C1A74A48800D79066 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9297AA2B1A74A48800D79066 /* Penguin.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
@@ -83,6 +84,8 @@
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		92728ADA1A786E8700DDE725 /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gameplay.h; path = Source/Gameplay.h; sourceTree = "<group>"; };
 		92728ADB1A786E8700DDE725 /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gameplay.m; path = Source/Gameplay.m; sourceTree = "<group>"; };
+		92728AE91A78D2CA00DDE725 /* WaitingPenguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaitingPenguin.h; path = Source/WaitingPenguin.h; sourceTree = "<group>"; };
+		92728AEA1A78D2CA00DDE725 /* WaitingPenguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaitingPenguin.m; path = Source/WaitingPenguin.m; sourceTree = "<group>"; };
 		9297AA1D1A74A47A00D79066 /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Seal.h; path = Source/Seal.h; sourceTree = "<group>"; };
 		9297AA1E1A74A47A00D79066 /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Seal.m; path = Source/Seal.m; sourceTree = "<group>"; };
 		9297AA2A1A74A48800D79066 /* Penguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Penguin.h; path = Source/Penguin.h; sourceTree = "<group>"; };
@@ -165,6 +168,8 @@
 				9297AA2B1A74A48800D79066 /* Penguin.m */,
 				92728ADA1A786E8700DDE725 /* Gameplay.h */,
 				92728ADB1A786E8700DDE725 /* Gameplay.m */,
+				92728AE91A78D2CA00DDE725 /* WaitingPenguin.h */,
+				92728AEA1A78D2CA00DDE725 /* WaitingPenguin.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -402,6 +407,7 @@
 			files = (
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
+				92728AEB1A78D2CA00DDE725 /* WaitingPenguin.m in Sources */,
 				9297AA1F1A74A47A00D79066 /* Seal.m in Sources */,
 				9297AA2C1A74A48800D79066 /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
